@@ -1,0 +1,19 @@
+{
+  "name": "yatzy_server",
+  "version": "1.0.0",
+  "description": "Server side with endpoints to help run a yatzy game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon index.js"
+  },
+  "author": "Ross Parker",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "type": "module"
+}
